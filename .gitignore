@@ -3,9 +3,8 @@
 .pytest_cache
 *.pyc
 
-docs/
-bin/
 venv/
 
 dist/
 *.egg-info
+*.eggs
