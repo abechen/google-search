@@ -1,11 +1,10 @@
 language: python
-
+sudo: false
 brance: dev
-
 python:
   - "2.7"
-
 install:
-
 script:
   - python setup.py test
+after_success:
+  - codecov
