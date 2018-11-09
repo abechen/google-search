@@ -1,0 +1,11 @@
+language: python
+
+brance: dev
+
+python:
+  - "2.7"
+
+install:
+
+script:
+  - python setup.py test
